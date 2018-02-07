@@ -1,0 +1,92 @@
+ul{
+     list-style:none;
+}
+
+#FSBox ul{height:500px; width:100%;}
+
+#FSBox ul{overflow:hidden; overflow-y:scroll;}
+
+#FSBox {
+	padding-left: 0px;
+}
+
+body{
+	background-color: #F2F2F2;
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+
+.prop {
+	padding-left:0px;
+	padding-top:0px;
+}
+
+
+.navbarC {
+	margin-bottom: 5px;
+}
+
+.drive{
+	width: 100%;
+}
+
+
+.nh {
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.widebutton{
+	width: 90px;
+	margin-bottom: 5px;
+}
+
+.w3-button:hover{
+	background-color: #c4c4c4;
+	border-radius: 0px 10px 10px 0px;
+}
+
+.widebuttonActive{
+	background-color: #c4c4c4;
+	border-radius: 0px 10px 10px 0px;
+}
+
+.noPR {
+	padding-right: 0px;
+}
+
+
+.minPad {
+	padding-right: 10px;
+}
+
+.minPad2 {
+	padding-right: 8px;
+}
+
+.leftBottonsPad{
+	padding-top: 5px;
+}
+
+.buttonMagic {
+    background-color: #e7e7e7; 
+    border: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+img { 
+	margin-bottom:0px;
+}
+
+.showFile{
+	margin-bottom: 10px;
+}
