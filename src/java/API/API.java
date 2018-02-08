@@ -35,12 +35,10 @@ public class API {
 			catch(Exception e){}
 		}
 		else{
-			System.out.println("Debí entrar aquí");
 			try {
 				requestJSON = new JSONObject(request.getParameter("data").toString());
 				
 			} catch (Exception ex) {
-				System.out.println("Me despiché");
 			}
 		}
 		return requestJSON; 
