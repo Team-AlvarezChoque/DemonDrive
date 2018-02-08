@@ -11,12 +11,14 @@
 		<link rel="stylesheet" href="./css/custom.css">
 		<!-- Font Awesome CSS -->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<link href="./css/monokai_sublime.css" rel="stylesheet" type="text/css">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 		<script src="./js/js.js"></script>
 	</head>
 	<body>
 		<!-- Menu -->
 		<div class="w3-top">
-			<div class="w3-bar dark-primary-color w3-text-white">
+			<div class="w3-bar dark-primary-color">
 				<div class="w3-margin-top w3-container w3-center">
 					<a class="w3-hover-opacity" href="https://github.com/Team-AlvarezChoque/DemonDrive" target="_blank"><img class="logo" src="./img/dd.png" alt="Logo" width="80"></a><br>
 				</div>
@@ -82,8 +84,17 @@
 				<h2 class="about-title">Important</h2>
 				This project is develop for a Windows enviroment, because require of the followings files (included):
 				<ul>
-					<li>C:/drive/id.txt: With a number to identify each file, recommended inital 1.</li>
-					<li>C:/drive/drive.json: With the following structure: { "accounts":{ } }	</li>
+					<li><b>C:/drive/id.txt</b>: With a number to identify each file, recommended inital 1.</li>
+					<li><b>C:/drive/drive.json</b>: With the following structure:
+						<pre><code class="json hljs code">
+	{
+		<span class="hljs-attr">"accounts"</span>:{
+			<span class="hljs-attr">"user"</span>:<span class="hljs-string">"file.json"</span>,
+			...
+		}
+	}
+						</code></pre>
+					</li>
 				</ul>
 			</div>
 		</div>

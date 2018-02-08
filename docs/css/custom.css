@@ -51,6 +51,18 @@ body{
 	padding-right: 8%;
 }
 
+.code{
+	margin-right:190px;
+	margin-left: 150px;
+}
+
+@media (max-width:1200px){
+	.code{
+		margin-right:0px;
+		margin-left: 0px;
+	}
+}
+
 @media (max-width:600px){
 	.w3-show-small{
 		display:block!important
