@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>DemonDrive</title>
+		<!-- W3 CSS -->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="./css/palette.css">
+		<link rel="stylesheet" href="./css/custom.css">
+		<!-- Font Awesome CSS -->
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<script src="./js/js.js"></script>
+	</head>
+	<body>
+		<!-- Menu -->
+		<div class="w3-top">
+			<div class="w3-bar dark-primary-color w3-text-white">
+				<div class="w3-margin-top w3-container w3-center">
+					<a class="w3-hover-opacity" href="https://github.com/Team-AlvarezChoque/DemonDrive" target="_blank"><img class="logo" src="./img/dd.png" alt="Logo" width="80"></a><br>
+				</div>
+			</div>
+		</div>
+		<!-- What is it? -->
+		<div class="w3-margin-top w3-container padding-top text-primary-color padding-side margin-side padding-margin-small">
+			<div class="padding-margin-big padding-margin-small">
+				<h2 class="about-title">What is it?</h2>
+				<p>Its about a project of the course Principles of Operating Systems (IC6600) in Technological Institute of Costa Rica that wants to develop a web-server aplication to emulate a File System.</p>
+				<p>The purpose of this project is to implement a Web drive for files. The intention is to put into practice knowledge about File Systems. For this, the functions of the File System that are broken down later will be implemented. It is a Web application where users can request a space for file storage. All the information management of the files is achieved from a .json file.</p>
+			</div>
+		</div>
+		<!-- Slider -->
+		<div class="w3-margin-top w3-content w3-section w3-card">
+			<img class="mySlides" src="./img/1.PNG" style="width:100%">
+			<img class="mySlides" src="./img/2.PNG" style="width:100%">
+			<img class="mySlides" src="./img/3.PNG" style="width:100%">
+			<img class="mySlides" src="./img/4.PNG" style="width:100%">
+			<img class="mySlides" src="./img/5.PNG" style="width:100%">
+			<img class="mySlides" src="./img/6.PNG" style="width:100%">
+			<img class="mySlides" src="./img/7.PNG" style="width:100%">
+			<img class="mySlides" src="./img/8.PNG" style="width:100%">
+		</div>
+		<!-- Functions -->
+		<div class="w3-margin-top w3-container text-primary-color padding-side margin-side padding-margin-small">
+			<div class="padding-margin-big padding-margin-small">
+				<h2 class="about-title">Functions</h2>
+				<ul>
+					<li>Create Drive</li>
+					<li>Enter Drive</li>
+					<li>Create file</li>
+					<li>Create directory</li>
+					<li>Change directory</li>
+					<li>List directories</li>
+					<li>Modify file</li>
+					<li>Show properties</li>
+					<li>Show file</li>
+					<li>Copy
+						<ul>
+							<li>RV: Means, copy a actual file to virtual file (virtual file system).</li>
+							<li>VR: Means, copy a virtual file to actual file.</li>
+							<li>VV: Means, copy a virtual file into another directory.</li>
+						</ul>
+					</li>
+					<li>Move</li>
+					<li>Delete</li>
+					<li>Share</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Requirements -->
+		<div class="w3-margin-top w3-container text-primary-color padding-side margin-side padding-margin-small">
+			<div class="padding-margin-big padding-margin-small">
+				<h2 class="about-title">Requirements</h2>
+				<ul>
+					<li><a href="https://commons.apache.org/proper/commons-io/download_io.cgi" target="_blank">Commons IO</a> *</li>
+					<li><a href="http://www.java2s.com/Code/Jar/j/Downloadjavajsonjar.htm" target="_blank">Java JSON</a> *</li>
+					<li>Java EE with Glassfish</li>
+				</ul>
+				*Means that the requirement is inside this project.
+
+				<h2 class="about-title">Important</h2>
+				This project is develop for a Windows enviroment, because require of the followings files (included):
+				<ul>
+					<li>C:/drive/id.txt: With a number to identify each file, recommended inital 1.</li>
+					<li>C:/drive/drive.json: With the following structure: { "accounts":{ } }	</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Footer -->
+		<footer class="dark-primary-color w3-text-white w3-center w3-padding-16">
+			<div class="w3-row">
+				<div class="w3-col s6 w3-center space-right">
+					<p class="right"><b>Adrián Álvarez Calderón</b></p>
+					<a class="float-right" href="https://twitter.com/chapitro" target="_blank"><i class="fab fa-twitter w3-hover-opacity fa-2x footer-small"></i></a>
+					<a class="float-right" href="https://github.com/adalvarez" target="_blank"><i class="fab fa-github w3-hover-opacity fa-2x footer-small"></i></a>
+					<a class="float-right" href="https://www.linkedin.com/in/ajalvarezc/" target="_blank"><i class="fab fa-linkedin w3-hover-opacity fa-2x footer-small"></i></a>
+				</div>
+				<div class="w3-col s6 w3-center space-left">
+					<p class="left"><b>Michael Choque Núnez</b></p>
+					<a class="float-left" href="https://github.com/Feymus" target="_blank"><i class="fab fa-github w3-hover-opacity fa-2x footer-small"></i></a>
+					<a class="float-left" href="https://www.linkedin.com/in/michael-choque-n%C3%BA%C3%B1ez-777b5a153/" target="_blank"><i class="fab fa-linkedin w3-hover-opacity fa-2x footer-small"></i></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
