@@ -36,3 +36,26 @@ The purpose of this project is to implement a Web drive for files. The intention
 * **Move**
 * **Delete**
 * **Share**
+
+<img src="https://raw.githubusercontent.com/Team-AlvarezChoque/DemonDrive/master/docs/img/1.PNG" >
+
+#### Requirements
+
+* [Commons IO](https://commons.apache.org/proper/commons-io/download_io.cgi) *
+* [Java JSON](http://www.java2s.com/Code/Jar/j/Downloadjavajsonjar.htm) *
+* Java EE with Glassfish
+
+*Means that the requirement is inside this project.
+
+#### Important
+
+This project is develop for a Windows enviroment, because require of the followings files (included):
+* C:/drive/id.txt: With a number to identify each file, recommended inital 1.
+* C:/drive/drive.json: With the following structure:
+```
+{
+    "accounts":{
+        
+    }
+}
+```
